@@ -3,15 +3,15 @@
 //   const vCardData = `
 // BEGIN:VCARD
 // VERSION:3.0
-// FN:Afaf Mohammad Marouf
+// FN:MUHAMMAD MAHMOOD ALJOMAAT
 // TITLE:Sales Manager
 // ORG:RISE Properties
-// TEL;TYPE=WORK,VOICE:+971521977368
-// TEL;TYPE=WORK,VOICE:+971568809032
+// TEL;TYPE=WORK,VOICE:+971557840135‬‬
+// TEL;TYPE=WORK,VOICE:+971542993870‬
 // TEL;TYPE=WORK,VOICE:+97145665109
-// EMAIL:Afaf@riseproperties.ae
+// EMAIL:aljomaat@riseproperties.ae
 // URL:http://www.riseproperties.ae
-// ADR;TYPE=WORK:;;PO Box No 455979, Office NO.1607, Opal Tower, Business Bay;Dubai;;UAE
+// ADR;TYPE=WORK:;;PO Box No 181702, Office NO.1607, Opal Tower, Business Bay;Dubai;;UAE
 // END:VCARD
 //   `.trim();
 
@@ -38,13 +38,15 @@ function downloadVCard() {
   const vCardData = `
 BEGIN:VCARD
 VERSION:3.0
-FN:Ahmad Uzair Chaudhary
+FN:MUHAMMAD MAHMOOD ALJOMAAT
 TITLE:Sales Manager
 ORG:RISE Properties
+TEL;TYPE=WORK,VOICE:+971557840135
+TEL;TYPE=WORK,VOICE:+971542993870‬
 TEL;TYPE=WORK,VOICE:+97145665109
-EMAIL:Ahmed.Uzair@riseproperties.ae
+EMAIL:aljomaat@riseproperties.ae
 URL:http://www.riseproperties.ae
-ADR;TYPE=WORK:;;PO Box No 455979, Office NO.1607, Opal Tower, Business Bay;Dubai;;UAE
+ADR;TYPE=WORK:;;PO Box No 181702, Office NO.1607, Opal Tower, Business Bay;Dubai;;UAE
 END:VCARD
   `.trim();
 
@@ -53,7 +55,7 @@ END:VCARD
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'Ahmad Uzair Chaudhary.vcf';
+  a.download = 'MUHAMMAD MAHMOOD ALJOMAAT.vcf';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
